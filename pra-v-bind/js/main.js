@@ -10,16 +10,14 @@ const app = new Vue({
     ],
 
     additem:"",
-    preAdditem:"",
     seen: true
   },
   methods:{
     Additem: function () {
       this.items.push(
         {id:this.index++, num: this.additem}
-        );
-      
-      
+      )
+
     }
   }
 })
